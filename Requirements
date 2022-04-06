@@ -1,0 +1,68 @@
+//Requirements for project to reference in the future
+
+/* Specific Project Requirements
+
+• In this project, you will have to design a simple blog for posting recipes with comment
+    functionality.
+
+• Allow user to:
+    • Enter a name, a description
+
+    • Add a detailed blog-type post to accompany the recipe
+
+    • Add a list of ingredients for the recipe (should be entered separately and stored in an
+        array)
+
+    • Add individual steps for the recipe (separate entry for each step, should be stored in an
+        array)
+
+    • Add some ranking for difficulty
+
+• A page should display all recipes in a summary listing format
+
+• Each recipe should be clickable to display the detailed recipe blog post
+
+• Each recipe blog post should be an object containing the details above plus the arrays
+    for steps and ingredients.
+
+• The blog should allow the user to create as many recipes as they would like, maintaining
+    and displaying all previous recipe entries.
+
+• The user should be able to start a new recipe post after completing a previous post.
+
+• The user should be able to view previously entered recipes at any time.
+
+• An object should be used to store each recipe. An array should be used to manage all
+    recipe objects.
+
+• The system should then store data in a browser-based database or storage mechanism.
+    This may involve cookies, sessionStorage, localStorage, or other browser-based
+    mechanisms.
+
+• Conditional statements should be used to validate entries in the recipe entry form to
+    ensure data is entered correctly
+
+• A loop should be used to display the array information (steps and ingredients). 
+
+*/
+
+/* General Requirements
+• HTML elements
+    o <html> html>
+    o <head> </head>
+    o <title> </title>
+    o <body> </body>
+
+• JavaScript elements
+    o Some method to dynamically write html
+    o Conditional statement (if, case, etc)
+    o Specifying 1 or more event handlers
+    o Exception handling: try, catch, finally
+    o Use of an object
+    o Use of an array of objects
+    o Some kind of data storage mechanism to maintain information required at least
+        until the browser session closes.
+    o A loop (for or while) must be implemented meaningfully in the
+        project. Generally, you should be able to use a loop (or multiple loops) to handle
+        the data stored in the array of objects.
+*/

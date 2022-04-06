@@ -1,0 +1,23 @@
+/*Inital Solutions/Ideas for Requirement
+    Front-End:
+       -Have a table where the rows are the recipes.
+            *each row would consists of name, description, and table
+            
+             *When the recipe is clicked on then a table expands(maybe open new page; check if I can use angular components/download angular components to computer)
+
+        -A form for the name, description, steps, ingredents(reference the book ticket case where i tlet you add multiple customer but now for steps & ingredients)
+
+        -Radio button on form for difficult.
+    
+    Back-End:
+       Recipe Object = {
+         name: string,
+         description: string,
+         ingredients: [],
+         steps: [],
+         difficult: string, (would store an value from an difficultly array or a enum
+    }
+
+   Have an object for indivual recipes(above) then have an array of recipes that would consists of recipe objects.
+
+*/

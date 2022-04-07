@@ -1,0 +1,60 @@
+<!--
+    Final Project: Recipe Blog Project
+    Author: Zoey Sears
+    Date Started: 4/6/2022
+    Filename: recipe_blog.html
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>New Recipe Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>New Recipe Form</h1>
+    </header>
+
+    <article>
+        <!--Form that allows user to input all information about recipe they are adding-->
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name ="name"><br>
+            <label for="description">Description:</label>
+            <textarea id="description" name ="description"></textarea><br>
+
+            <abel for="ingredients">Ingredients:</label>
+            <input type="text" id="ingredients" name ="ingredients"><br> 
+            <abel for="step">Step:</label>
+            <input type="text" id="step" name ="step"><br>
+
+            <!--User to select what difficulty the recipe is-->
+            <label for="difficultly">Difficultly:</label>
+            <input type="radio" id="easy" name="difficultly" value="Easy">
+            <label for="easy">Easy</label>
+            <input type="radio" id="medium" name="difficultly" value="Medium">
+            <label for="medium">Medium</label>
+            <input type="radio" id="hard" name="difficultly" value="Hard">
+            <label for="hard">Hard</label><br>
+
+            <input type="submit" value="Submit Recipe">
+        </form>
+    </article>
+
+      <!--Will display the information the user has already entered about the recipe-->
+      <section id="recipe">
+        <h3>Recipe Name</h3>
+        <h3>Description</h3>
+        <h3>Ingredients</h3>
+        <h3>Steps</h3>
+        <h3>Difficultly</h3>
+     </section>
+
+    <script src="recipe_form.html"></script>
+  </body>
+</html>
+
+

@@ -20,20 +20,22 @@
 
     <article>
         <!--Form that allows user to input all information about recipe they are adding-->
+        <!--Have Required on name,description, and difficult to make sure that some value is added-->
         <form>
             <label for="name">Name:</label>
-            <input type="text" id="name" name ="name"><br>
+            <input type="text" id="name" name ="name" required><br>
             <label for="description">Description:</label>
-            <textarea id="description" name ="description"></textarea><br>
+            <textarea id="description" name ="description" required></textarea><br>
 
             <abel for="ingredients">Ingredients:</label>
             <input type="text" id="ingredients" name ="ingredients"><br> 
+
             <abel for="step">Step:</label>
             <input type="text" id="step" name ="step"><br>
 
             <!--User to select what difficulty the recipe is-->
             <label for="difficultly">Difficultly:</label>
-            <input type="radio" id="easy" name="difficultly" value="Easy">
+            <input type="radio" id="easy" name="difficultly" value="Easy" required>
             <label for="easy">Easy</label>
             <input type="radio" id="medium" name="difficultly" value="Medium">
             <label for="medium">Medium</label>

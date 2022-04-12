@@ -21,3 +21,15 @@
    Have an object for indivual recipes(above) then have an array of recipes that would consists of recipe objects.
 
 */
+
+/* 4/11 - 4/17 TO-DO
+   1. Add Form Validation
+      * Difficultly must be selected 4.11
+      * Name must be provided
+      * Description must be provided
+      * Ingredients length must be greater than 1
+      * Step ingredients must be greater than 1
+   2. Make it so you add ingredients to array when enter is pressed look at Ch 7(I think) as referecne
+   3. Repeat That for the Step Incredient
+   4. Using QueryString pass back the to recipe_blog.js and set a recipe object
+*/

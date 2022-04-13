@@ -27,11 +27,13 @@
             <label for="description">Description:</label>
             <textarea id="description" name ="description" required></textarea><br>
 
-            <abel for="ingredients">Ingredients:</label>
-            <input type="text" id="ingredients" name ="ingredients"><br> 
+            <abel for="ingredient">Ingredient:</label>
+            <input type="text" id="ingredient" name ="ingredient">
+            <input type="button" value="Add Ingredient" id="addIngredient"><br>
 
             <abel for="step">Step:</label>
-            <input type="text" id="step" name ="step"><br>
+            <textarea id="step" name ="step"></textarea>
+            <input type="button" value="Add Step" id="addStep"><br>
 
             <!--User to select what difficulty the recipe is-->
             <label for="difficultly">Difficultly:</label>
@@ -49,10 +51,15 @@
       <!--Will display the information the user has already entered about the recipe-->
       <section id="recipe">
         <h3>Recipe Name</h3>
+          <ul id="recipeName"></ul>
         <h3>Description</h3>
+          <ul id="descriptionSection"></ul>
         <h3>Ingredients</h3>
+          <ul id="ingredientSection"></ul>
         <h3>Steps</h3>
+          <ul id="stepSection"></ul>
         <h3>Difficultly</h3>
+          <ul id="difficultySection"></ul>
      </section>
 
     <script src="recipe_form.html"></script>

@@ -25,8 +25,8 @@
 /* 4/11 - 4/17 TO-DO
    1. Add Form Validation
       * Difficultly must be selected 4.11
-      * Name must be provided
-      * Description must be provided
+      * Name must be provided 4.11
+      * Description must be provided 4.11
       * Ingredients length must be greater than 1
       * Step ingredients must be greater than 1
    2. Make it so you add ingredients to array when enter is pressed look at Ch 7(I think) as referecne
